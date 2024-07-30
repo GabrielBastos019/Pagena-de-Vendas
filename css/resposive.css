@@ -1,0 +1,33 @@
+@media(max-width:540px){
+    .cabeçalho h1{
+        font-size: 50px;
+    }
+
+    .section-video .show{
+        font-size: 30px;
+    }
+    .descrição-video-esmagrecer{
+        font-size: 18px;
+        margin-top: -80px;
+    }
+    .container{
+        flex-direction: column-reverse;
+        align-items: center;
+       
+    }
+    .price,.about-content{
+        width: 100%;
+    }
+}
+
+@media(max-width:395px){
+    .section-video .show{
+        font-size: 20px;
+    }
+    .fa-arrow-right{
+        font-size: 33px;
+    }
+    .feedbacks h3{
+        font-size: 23px;
+    }
+}
